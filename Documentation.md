@@ -3,14 +3,14 @@ An Version of the Orion Lib for Roblox but Better.
 
 ## Booting the Library
 ```lua
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Xploitinum/BetterOrionLib/main/BetterOrion.lua')))()
 ```
 
 
 
 ## Creating a Window
 ```lua
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Title", HidePremium = false, SaveConfig = true, ConfigFolder = "BetterOrionTEST"})
 
 --[[
 Name = <string> - The name of the UI.
